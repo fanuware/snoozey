@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.fanuware.android.snoop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBoxPreference
+        android:key="@string/pref_vibration_key"
+        android:title="@string/pref_vibration_label"
+        android:defaultValue="@bool/pref_vibration_default" />
+
+    <ListPreference
+        android:key="@string/pref_alarm_mode_key"
+        android:title="@string/pref_alarm_mode_label"
+        android:defaultValue="@string/pref_alarm_mode_value1"
+        android:entries="@array/pref_alarm_mode_options"
+        android:entryValues="@array/pref_alarm_mode_values" />
+
+    <ListPreference
+        android:key="@string/pref_snooze_delay_key"
+        android:title="@string/pref_snooze_delay_label"
+        android:defaultValue="@string/pref_snooze_delay_value2"
+        android:entries="@array/pref_snooze_delay_options"
+        android:entryValues="@array/pref_snooze_delay_values" />
+
+    <ListPreference
+        android:key="@string/pref_max_alarm_duration_key"
+        android:title="@string/pref_max_alarm_duration_label"
+        android:defaultValue="@string/pref_max_alarm_duration_value6"
+        android:entries="@array/pref_max_alarm_duration_options"
+        android:entryValues="@array/pref_max_alarm_duration_values" />
+
+    <com.fanuware.android.snoop.SliderPreference
+        android:key="@string/pref_auto_snooze_duration_key"
+        android:defaultValue="@string/pref_auto_snooze_duration_default"
+        android:title="@string/pref_auto_snooze_label"
+        android:min="1"
+        android:max="10"
+        custom:unit="@string/pref_auto_snooze_duration_unit" />
+
+    <com.fanuware.android.snoop.SliderPreference
+        android:key="@string/pref_auto_snooze_repetition_key"
+        android:defaultValue="@string/pref_auto_snooze_repetition_default"
+        android:title=""
+        android:min="1"
+        android:max="20"
+        custom:unit="@string/pref_auto_snooze_repetition_unit" />
+
+    <com.fanuware.android.snoop.SliderPreference
+        android:key="@string/pref_volume_key"
+        android:defaultValue="@string/pref_volume_default"
+        android:title="@string/pref_volume_label"
+        android:min="0"
+        android:max="100"
+        custom:translate_value1="0"
+        custom:translate_string1="@string/pref_volume_system_default" />
+</PreferenceScreen>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (C) 2017 The Android Open Source Project
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+  	http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingEnd="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingStart="4dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/mode_image_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        android:elevation="4dp"
+        android:src="@drawable/ic_alarm_default"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:transitionName="imageViewTransition" />
+
+    <TextView
+        android:id="@+id/list_time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="14:51"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/mode_image_view"
+        app:layout_constraintStart_toEndOf="@+id/mode_image_view"
+        app:layout_constraintTop_toTopOf="@+id/mode_image_view"
+        android:transitionName="timeTransition"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/mode_image_view"
+        app:layout_constraintEnd_toStartOf="@+id/list_alarm_state_button"
+        app:layout_constraintStart_toEndOf="@+id/list_time_view"
+        app:layout_constraintTop_toTopOf="@+id/mode_image_view">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Alarm title"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mo  Tu  Th  We  Fr  Sa  Su"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/list_alarm_state_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="8dp"
+        android:padding="0dp"
+        android:textSize="10sp"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintBottom_toBottomOf="@+id/mode_image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mode_image_view" />
+
+</android.support.constraint.ConstraintLayout>

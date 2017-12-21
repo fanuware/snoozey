@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- preferences -->
+    <string-array name="pref_alarm_mode_options">
+        <item>@string/pref_alarm_mode_option1</item>
+        <item>@string/pref_alarm_mode_option2</item>
+    </string-array>
+    <string-array name="pref_alarm_mode_values">
+        <item>@string/pref_alarm_mode_value1</item>
+        <item>@string/pref_alarm_mode_value2</item>
+    </string-array>
+
+    <string-array name="pref_snooze_delay_options">
+        <item>@string/pref_snooze_delay_option1</item>
+        <item>@string/pref_snooze_delay_option2</item>
+        <item>@string/pref_snooze_delay_option3</item>
+        <item>@string/pref_snooze_delay_option4</item>
+    </string-array>
+    <string-array name="pref_snooze_delay_values">
+        <item>@string/pref_snooze_delay_value1</item>
+        <item>@string/pref_snooze_delay_value2</item>
+        <item>@string/pref_snooze_delay_value3</item>
+        <item>@string/pref_snooze_delay_value4</item>
+    </string-array>
+
+    <string-array name="pref_max_alarm_duration_options">
+        <item>@string/pref_max_alarm_duration_option1</item>
+        <item>@string/pref_max_alarm_duration_option2</item>
+        <item>@string/pref_max_alarm_duration_option3</item>
+        <item>@string/pref_max_alarm_duration_option4</item>
+        <item>@string/pref_max_alarm_duration_option5</item>
+        <item>@string/pref_max_alarm_duration_option6</item>
+        <item>@string/pref_max_alarm_duration_option7</item>
+        <item>@string/pref_max_alarm_duration_option8</item>
+        <item>@string/pref_max_alarm_duration_option9</item>
+        <item>@string/pref_max_alarm_duration_optionUnlimited</item>
+    </string-array>
+    <string-array name="pref_max_alarm_duration_values">
+        <item>@string/pref_max_alarm_duration_value1</item>
+        <item>@string/pref_max_alarm_duration_value2</item>
+        <item>@string/pref_max_alarm_duration_value3</item>
+        <item>@string/pref_max_alarm_duration_value4</item>
+        <item>@string/pref_max_alarm_duration_value5</item>
+        <item>@string/pref_max_alarm_duration_value6</item>
+        <item>@string/pref_max_alarm_duration_value7</item>
+        <item>@string/pref_max_alarm_duration_value8</item>
+        <item>@string/pref_max_alarm_duration_value9</item>
+        <item>@string/pref_max_alarm_duration_valueUnlimited</item>
+    </string-array>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_activity_title">Alarme</string>
+    <string name="add_new_time_activity_title">Neu</string>
+    <string name="edit_time_activity_title">Bearbeiten</string>
+    <string name="settings_activity_title">Einstellungen</string>
+    <string name="add_time_monday">Mo</string>
+    <string name="add_time_tuesday">Di</string>
+    <string name="add_time_wednesday">Mi</string>
+    <string name="add_time_thursday">Do</string>
+    <string name="add_time_friday">Fr</string>
+    <string name="add_time_saturday">Sa</string>
+    <string name="add_time_sunday">So</string>
+    <string name="submit_time">Speichern</string>
+    <string name="alarm_message_single">Alarm startet in %1$s!</string>
+    <string name="alarm_message_double">Alarm startet in %1$s und %2$s!</string>
+    <string name="snooze">Snooze</string>
+    <string name="notification_alarm_snooze_text">Nächster Alarm um %1$s.</string>
+    <string name="pref_vibration_label">Vibrieren</string>
+    <string name="pref_snooze_delay_label">Snooze Verzögerung</string>
+    <string name="pref_snooze_delay_option1">2 Minuten</string>
+    <string name="pref_snooze_delay_option2">5 Minuten</string>
+    <string name="pref_snooze_delay_option3">7 Minuten</string>
+    <string name="pref_snooze_delay_option4">10 Minuten</string>
+    <string name="pref_max_alarm_duration_label">Maximale Alarmdauer</string>
+    <string name="pref_max_alarm_duration_option1">1 Minute</string>
+    <string name="pref_max_alarm_duration_option2">2 Minuten</string>
+    <string name="pref_max_alarm_duration_option3">5 Minuten</string>
+    <string name="pref_max_alarm_duration_option4">10 Minuten</string>
+    <string name="pref_max_alarm_duration_option5">15 Minuten</string>
+    <string name="pref_max_alarm_duration_option6">20 Minuten</string>
+    <string name="pref_max_alarm_duration_option7">30 Minuten</string>
+    <string name="pref_max_alarm_duration_option8">40 Minuten</string>
+    <string name="pref_max_alarm_duration_option9">1 Stunde</string>
+    <string name="pref_max_alarm_duration_optionUnlimited">Unlimitiert</string>
+    <string name="pref_alarm_ringtone_label">Alarmton</string>
+    <string name="alarm_mode_standard">Standard</string>
+    <string name="alarm_mode_auto_snooze">Auto Snooze</string>
+    <string name="alarm_button_on">Ein</string>
+    <string name="alarm_button_off">Aus</string>
+    <string name="about_activity_title">Info</string>
+
+    <plurals name="numberOfMinutes">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+    <plurals name="numberOfHours">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="numberOfDays">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <string name="pref_alarm_mode_label">Alarm quittieren</string>
+    <string name="pref_alarm_mode_option1">Zwei Finger (Standard)</string>
+    <string name="pref_alarm_mode_option2">Löse eine Rechnung</string>
+    <string name="app_author">Autor: Fanuware</string>
+    <string name="date_pattern">dd. MMMM YYYY</string>
+    <string name="time_show_once">einmalig</string>
+    <string name="hint_two_finger">Zwei Finger Zoom</string>
+    <string name="pref_alarm_ringtone_ok">Bestätigen</string>
+    <string name="pref_alarm_ringtone_cancel">Abbrechen</string>
+    <string name="pref_auto_snooze_duration_unit">&#160;Sekunden</string>
+    <string name="pref_auto_snooze_repetition_unit">&#160;Wiederholungen</string>
+    <string name="pref_volume_label">Lautstärke</string>
+    <string name="pref_volume_system_default">Gerätelautstärke</string>
+</resources>
